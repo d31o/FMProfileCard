@@ -1,0 +1,121 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    background-blend-mode: screen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.bubbles {
+    position: absolute;
+}
+.top-bubble {
+    position: absolute;
+    top: -950px;
+    left: -1000px;
+}
+
+.bottom-bubble {
+    position: absolute;
+    bottom: -1050px;
+    right: -950px;
+}
+
+.profile-card {
+    height: 450px;
+    width: 450px;
+    background-size: cover;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.profile-top-banner {
+    background-image: url('imgs/bg-pattern-card.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    height: 175px;
+    width: 450px;
+}
+
+.profile-pic {
+    border: solid 5px white; 
+    border-radius: 50%;
+    position: relative;
+    bottom: 75px;
+    height: 125px;
+    width: 125px;
+}
+
+.profile-info {
+    color: hsl(229, 23%, 23%);
+    position: relative;
+    bottom: 65px;
+    width: 40%;
+}
+
+.profile-name {
+    margin-bottom: 10px;
+}
+
+.location {
+    color: hsl(227, 10%, 46%);
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 50px;
+}
+.age {
+    color: hsl(227, 10%, 46%);
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+hr {
+    width: 100%;
+    border: solid 1px hsl(227, 10%, 46%, .1);
+    position: relative;
+    bottom: 50px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+    font-size: .9rem;
+    color: hsl(227, 10%, 46%);
+    
+}
+
+.stats h3 {
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 5px;
+}
+
+.stats p {
+    font-size: .7rem;
+    text-align: center;
+    font-weight: normal;
+
+}
